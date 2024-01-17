@@ -9,6 +9,10 @@ The Framework computations are only based on low level [Cupy](https://docs.cupy.
 > NOTE: The CNN framework was self-developed and should therefore be treated with caution with regard to the accuracy of the calculations. However, especially for the Sudoku detection and number detections, calculation results were compared with the well-known pytorch framework and the calculations were confirmed. If you just need a simple, fast and highly customizable framework, see the [PyTorch](https://pytorch.org/get-started/locally/) framework.
 
 
+## Install Cupy
+
+Check the [cupy documentation](https://docs.cupy.dev/en/stable/install.html) to choose the correct cupy library compatible with your Cuda version.
+
 ## Dataset
 
 #### Sudoku Dataset
@@ -28,7 +32,7 @@ Unpack all the files and put them in the Dataset folder.
 
 ## Training
 
-While the Network was mainly created for detecting the certicies of a Soduku it is build to support a variaty of architectures and with that a variaty of porpuses.
+While the Network was mainly created for detecting the verticies of a Soduku, it is build to support a variaty of architectures and with that a variaty of porpuses.
 
 #### *Train a model:*
 
@@ -74,9 +78,9 @@ For training a model one can use the *train_mnist_numb_rec.py* as a basis. With 
 
 4. Save model
 
-   You can save the model by serializing the Layer Classes. For this, the Network class ofers a save and a load method.
+   You can save the model by serializing the layer classes. The Network class provides a save and load method for this.
 
-   > NOTE: To save the model, the simplest method was chosen due to time constraints. Therefore, the project uses the Pickle library. This results in files with high memory consumption.
+   > NOTE: To save the model, the simplest method was chosen due to time constraints. Therefore, the project uses the [Pickle](https://docs.python.org/3/library/pickle.html) library. This results in files with high memory consumption.
    
 
 ```
