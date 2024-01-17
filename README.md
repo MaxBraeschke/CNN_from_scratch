@@ -6,12 +6,12 @@ The CNN framework was created as part of a University Project during my M.S.c. p
 
 The Framework computations are only based on low level [Cupy](https://docs.cupy.dev/en/stable/install.html) (Numpy extension to enable GPU excelration) operations. If you want to use only Numpy you can easly do this by just replacing the cupy import with your numpy import.
 
-> NOTE: The CNN framework was self-developed and should therefore be treated with caution with regard to the accuracy of the calculations. However, especially for the Sudoku detection and number detections, calculation results were compared with the well-known pytorch framework and the calculations were confirmed. If you just need a simple, fast and highly customizable framework, see the [PyTorch](https://pytorch.org/get-started/locally/) framework.
+> NOTE: The CNN framework was self-developed and should therefore be treated with caution with regard to the accuracy of the calculations. However, especially for the Sudoku detection and number recognition, calculation results were compared with the well-known pytorch framework and the calculations were confirmed. If you just need a simple, fast and highly customizable framework, use the [PyTorch](https://pytorch.org/get-started/locally/) framework.
 
 
 ## Install Cupy
 
-Check the [cupy documentation](https://docs.cupy.dev/en/stable/install.html) to choose the correct cupy library compatible with your Cuda version.
+Check the [cupy documentation](https://docs.cupy.dev/en/stable/install.html) to choose the correct cupy version compatible with your Cuda version. After you choosed a compatible version you can use pip for installing.
 
 ## Dataset
 
