@@ -23,7 +23,7 @@ For trying to detect numbers the famous MNIST Dataset was used.
 
 You can download it at [Kaggel](https://www.kaggle.com/datasets/hojjatk/mnist-dataset) or at the [website](http://yann.lecun.com/exdb/mnist/) from the orignial creator.
 
-Unpack all the files at put them in the Dataset folder.
+Unpack all the files and put them in the Dataset folder.
 
 
 ## Training
