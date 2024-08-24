@@ -32,7 +32,7 @@ Unpack all the files and put them in the Dataset folder.
 
 ## Training
 
-While the Network was mainly created for detecting the verticies of a Soduku, it is build to support a variaty of architectures and with that a variaty of porpuses.
+While the Network was mainly created for detecting the verticies of a Soduku, it is build to support a variaty of architectures and with that a variaty of purposes.
 
 #### *Train a model:*
 
